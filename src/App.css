@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .navbar{
+    background: rgb(199,199,194);
+    background: linear-gradient(0deg, rgba(199,199,194,1) 0%, rgba(0,0,0,0.39539565826330536) 37%, rgba(0,0,0,1) 100%);
+}   
+   */
+
+.bmi {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.nav-link, a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+ 
+}
+
+.bmi {
+  display: flex;
+  justify-content: center;
+}
+/* h3,th {
+  /* font-family: sans-serif;
+  font-style: italic;
+  font-weight: 600;
+} */
+
+.container-fluid{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 36%);
+}
+
+#pageContainer {
+  height: 100%;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.btn-lg{
+  box-shadow: 5px 5px 5px 5px #00000075;
+}
+
+#navbar{
+  box-shadow: 5px 5px 5px 5px #37383c24;
+}
+
+#form-group, #log{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#header{
+  padding-left: 20px;
+}
