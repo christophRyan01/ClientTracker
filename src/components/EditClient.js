@@ -44,7 +44,7 @@ export default class CreateClient extends Component {
         console.log(error);
       })
 
-      axios.get(`${url}/users/` || `${herokuUrl}/users/`)
+      axios.get(`${url}/users/`)
       .then(response => {
         this.setState({ users: response.data.map(user => user.username) });        
       })
