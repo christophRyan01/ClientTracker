@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import '../App.css'
 
-const url = 'https://git.heroku.com/tracker-backend-app.git'
+const url = 'http://localhost:4000'
 
 
 const Exercise = props => (
