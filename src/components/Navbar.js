@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/esm/Button';
 import {useAuth0} from '@auth0/auth0-react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sun from '../photos/UGymlog.png'
