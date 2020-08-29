@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../App.css'
 import axios from 'axios';
 
-const url = 'process.env.REACT_APP_API_URL || http://localhost:4000 '
+const url = 'process.env.REACT_APP_API_URL' || 'http://localhost:4000'
 
 const Client = props => (
   <tr>
